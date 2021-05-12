@@ -23,7 +23,7 @@ A Nagios plugin have to send a return code. This interpreted code is the result 
 
 Save this script in /usr/lib/nagios/plugins/check_rsyslog_db.sh and make it executable :
 
-chmod +x /usr/lib/nagios/plugins/check_rsyslog_db.sh
+$ chmod +x /usr/lib/nagios/plugins/check_rsyslog_db.sh
 
 Now you need to define new command in your nagios server command file /etc/nagios/objects/commands.cfg
 define command{
@@ -47,11 +47,11 @@ contacts nagiosadmin
 
 In order to verify your configuration, run Nagios with the -v command line option like so:
 
-/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+$ /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 
 The last step is to restart the nagios service using this command
 
-service nagios restart
+$ service nagios restart
 
 
 Please feel free to message me if you have any questions.
@@ -67,7 +67,7 @@ A list of technologies used within the project :
 ***
 * Download :
 ```
-$  git clone 
+$  git clone https://github.com/sodbaveka/check_rsyslog_db_nagios_plugin.git
 ```
 
 * Launch :
