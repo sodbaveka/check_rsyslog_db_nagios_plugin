@@ -1,0 +1,1 @@
+# check_rsyslog_db_nagios_plugin
